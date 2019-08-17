@@ -1,0 +1,249 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/8ee7bee6cf.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/scss/home.scss">
+    <link rel="stylesheet" href="~/scss/home.css">
+    <link rel="stylesheet" href="~/scss/home.css.map">
+    <link rel="stylesheet" href="~/css/first-page.css">
+
+    <title>@ViewBag.Title</title>
+</head>
+
+<body>
+    <header>
+        <section id="polo-header">
+            <div id="barbla" class="polo-head fixed-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <nav id="nav_bar" class="navbar navbar-expand-lg" style="height: 70px;">
+                                <a class="navbar-brand" href="#"><img src="~/img//logo1.png"></a>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                        data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                        aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse right-nav justify-content-end" id="navbarNav">
+                                    <ul class="navbar-nav nav-pills">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+
+                                        </li>
+                                        <li class="nav-item active dropdown">
+                                            <a class="nav-link" href="#">LAYOUT</a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Topbar</a>
+                                                <a class="dropdown-item" href="#">Header</a>
+                                                <a class="dropdown-item" href="#">Main Menu</a>
+                                                <a class="dropdown-item" href="#">Page Title</a>
+                                                <a class="dropdown-item" href="#">Page Menu</a>
+                                                <a class="dropdown-item" href="#">Sidebars</a>
+                                                <a class="dropdown-item" href="#">Footers</a>
+                                                <a class="dropdown-item" href="#">Options</a>
+                                                <a class="dropdown-item" href="#">Layout Demos</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item active dropdown">
+                                            <a class="nav-link" href="#">FEATURES</a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Sliders</a>
+                                                <a class="dropdown-item" href="#">Widgets</a>
+                                                <a class="dropdown-item" href="#">Page Loaders</a>
+                                                <a class="dropdown-item" href="#">Modal Auto Open</a>
+                                                <a class="dropdown-item" href="#">Cookie Notify</a>
+                                                <a class="dropdown-item" href="#">Menu Labels</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item active dropdown">
+                                            <a class="nav-link" href="#">ELEMENTS</a>
+                                            <div class="dropdown-menu">
+
+                                                <a class="dropdown-item"
+                                                   href="../Front-End Layihe/accardion.html">Accordions</a>
+                                                <a class="dropdown-item"
+                                                   href="../Front-End Layihe/button.html">Buttons</a>
+                                                <a class="dropdown-item" href="../Front-End Layihe/dataTables.html">
+                                                    Data
+                                                    Tables
+                                                </a>
+                                                <a class="dropdown-item" href="../Front-End Layihe/dateTime.html">
+                                                    Date &
+                                                    Time Pickers
+                                                </a>
+                                                <a class="dropdown-item"
+                                                   href="../Front-End Layihe/image.html">Images</a>
+                                                <a class="dropdown-item" href="../Front-End Layihe/form.html">Forms</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item active dropdown">
+                                            <a class="nav-link" href="#">PAGES</a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">About us</a>
+                                                <a class="dropdown-item" href="#">About me</a>
+                                                <a class="dropdown-item" href="#">Contact us</a>
+                                                <a class="dropdown-item" href="#">Gallery</a>
+                                                <a class="dropdown-item" href="#">User pages</a>
+                                                <a class="dropdown-item" href="#">Services</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item active dropdown">
+                                            <a class="nav-link" href="#">PORTFOLIO</a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Grids</a>
+                                                <a class="dropdown-item" href="#">Masonry</a>
+                                                <a class="dropdown-item" href="#">Styles</a>
+                                                <a class="dropdown-item" href="#">Layouts</a>
+                                                <a class="dropdown-item" href="#">User pages</a>
+                                                <a class="dropdown-item" href="#">Single Project</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item active dropdown">
+                                            <a class="nav-link" href="#">BLOG</a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Grids</a>
+                                                <a class="dropdown-item" href="#">Masonry</a>
+                                                <a class="dropdown-item" href="#">Styles</a>
+                                                <a class="dropdown-item" href="#">Layouts</a>
+                                                <a class="dropdown-item" href="#">User pages</a>
+                                                <a class="dropdown-item" href="#">Single Project</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item active dropdown">
+                                            <a class="nav-link" href="#">SHOP</a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Columns</a>
+                                                <a class="dropdown-item" href="#">Layouts</a>
+                                                <a class="dropdown-item" href="#">Order Process</a>
+                                                <a class="dropdown-item" href="#">Single Product</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="icon-head" style="font-size:13px;">
+                                        <div class="icon-search">
+                                            <i class="fas fa-search"></i>
+                                        </div>
+                                        <div class="icon-shop">
+                                            <i class="fas fa-shopping-cart"><sup>8</sup></i>
+
+                                        </div>
+                                        <div class="icon-flag">
+                                            <i class="far fa-flag"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+
+                    </div>
+
+
+
+
+
+                </div>
+
+            </div>
+
+            </div>
+
+        </section>
+    </header>
+
+    @RenderBody()
+     
+
+    <footer>
+        <section id="polo-foot">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="left-foot">
+                            <h4>POLO HTML5 TEMPLATE</h4>
+                            <p>
+                                Built with love in Fort Worth, Texas, USA<br>
+                                All rights reserved. Copyright © 2019. INSPIRO.
+                            </p>
+                            <button class="btn btn-primary but">PURCHASE NOW</button>
+                        </div>
+
+                    </div>
+                    <div class="col-8">
+                        <div class="right-foot">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="item">
+                                        <h4>DISCOVER</h4>
+                                        <ul>
+                                            <li><a href="#">Features</a></li>
+                                            <li><a href="#">Layouts</a></li>
+                                            <li><a href="#">Corporate</a></li>
+                                            <li><a href="#">Updates</a></li>
+                                            <li><a href="#">Pricing</a></li>
+                                            <li><a href="#">Customers</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                                <div class="col-3">
+                                    <div class="item">
+                                        <h4>FEATURES</h4>
+                                        <ul>
+                                            <li><a href="#">Layouts</a></li>
+                                            <li><a href="#">Headers</a></li>
+                                            <li><a href="#">Widgets</a></li>
+                                            <li><a href="#">Footers</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="item">
+                                        <h4>PAGES</h4>
+                                        <ul>
+                                            <li><a href="#">Portfolio</a></li>
+                                            <li><a href="#">Blog</a></li>
+                                            <li><a href="#">Shop</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="item">
+                                        <h4>SUPPORT</h4>
+                                        <ul>
+                                            <li><a href="#">Help Desk</a></li>
+                                            <li><a href="#">Documentation</a></li>
+                                            <li><a href="#">Contact Us</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="row">
+            <div class="under col-12">
+                <p>© 2019 POLO - Responsive Multi-Purpose HTML5 Template. All Rights Reserved. INSPIRO</p><span class="angle-class"><i class="fa fa-angle-up angle"></i> </span>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.0/flickity.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="~/js/home.js"></script>
+</body>
+
+</html>

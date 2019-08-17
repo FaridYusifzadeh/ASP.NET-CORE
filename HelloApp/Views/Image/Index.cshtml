@@ -1,0 +1,67 @@
+﻿
+
+
+@model  Studentimage
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+    <div class="container">
+        <div class="row mt-5">
+
+            <h2>@ViewBag.Adress</h2><br />
+
+
+        </div>
+
+        <div class="row mt-5">
+
+            <h1>@ViewBag.Name</h1>
+
+        </div>
+
+        <div class="row mt-5">
+
+            @foreach (var image in Model.Allimage)
+            {
+                <div class="col-4">
+
+                    <a href="/image/image/@image.Id" target="_blank">
+
+                        <img src="~/img/@image.Link" class="img-thumbnail">
+
+                    </a>
+
+
+                </div>
+            }
+
+
+
+
+        </div>
+
+        <div class="row mt-5">
+            <ul>
+                @foreach (var student in Model.Student)
+                {
+                    <li>@student</li>
+                }
+            </ul>
+        </div>
+
+        <div class="row mt-5">
+            <ul>
+                @foreach (var number in Model.Numbers)
+                {
+                    <li>@number</li>
+                }
+            </ul>
+        </div>
+
+    </div>
+
+

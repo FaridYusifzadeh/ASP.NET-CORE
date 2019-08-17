@@ -1,0 +1,2466 @@
+body {
+  overflow-x: hidden; }
+
+/* Home Page - Navbar Start */
+header #polo-header {
+  height: 0px; }
+  header #polo-header .polo-head {
+    height: 20px; }
+    header #polo-header .polo-head .right-nav {
+      height: 70px; }
+      header #polo-header .polo-head .right-nav ul {
+        font-size: 12px; }
+        header #polo-header .polo-head .right-nav ul li {
+          padding-left: 10px; }
+          header #polo-header .polo-head .right-nav ul li:hover .dropdown-menu {
+            display: block; }
+            header #polo-header .polo-head .right-nav ul li:hover .dropdown-menu a {
+              color: black !important;
+              opacity: 0.6;
+              padding: 10px !important; }
+              header #polo-header .polo-head .right-nav ul li:hover .dropdown-menu a:hover {
+                color: #2250fc !important;
+                background: none !important; }
+          header #polo-header .polo-head .right-nav ul li a {
+            font-size: 12px;
+            font-weight: 700;
+            color: white !important; }
+    header #polo-header .polo-head .icon-head {
+      display: flex;
+      align-items: center; }
+      header #polo-header .polo-head .icon-head .icon-search {
+        color: white;
+        padding-left: 10px; }
+      header #polo-header .polo-head .icon-head .icon-shop {
+        color: white;
+        padding-left: 10px; }
+      header #polo-header .polo-head .icon-head .icon-flag {
+        color: white;
+        padding-left: 10px; }
+
+/* Home Page - Navbar End */
+/* Home Page - Main Start */
+main {
+  /* no circle */
+  /* big previous & next buttons */
+  /* icon color */
+  /* hide disabled button */ }
+  main .slider:hover .flickity-prev-next-button {
+    display: block;
+    transition: display 1s; }
+  main .slider .main-carousel {
+    max-width: 100%;
+    height: 100vh;
+    margin: 0 auto; }
+    main .slider .main-carousel .carousel-cell {
+      background: #000;
+      width: 100%;
+      height: 100vh;
+      margin-right: 0px;
+      text-align: center;
+      position: relative;
+      overflow: hidden; }
+    main .slider .main-carousel .og .bg {
+      background: url("../img/slidernew3.jpg") no-repeat center;
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%; }
+    main .slider .main-carousel .og .text {
+      padding: 0 60px;
+      position: relative;
+      transform: translateY(-50%);
+      top: 50%; }
+    main .slider .main-carousel .og h1 {
+      text-shadow: 0px 0px 10px #000;
+      color: #fff;
+      font-family: "Monoton", cursive;
+      font-size: 76px;
+      font-weight: 700;
+      line-height: 1;
+      margin: 0 0 20px;
+      font-family: "Roboto", sans-serif; }
+    main .slider .main-carousel .og p {
+      color: #fff;
+      /* font-family: 'Josefin Slab', serif; */
+      font-size: 24px;
+      text-shadow: 0px 0px 10px #000;
+      font-family: "Roboto", sans-serif; }
+    main .slider .main-carousel .og #but {
+      display: inline-block;
+      padding: 13px;
+      background-color: blue;
+      border-radius: 8px;
+      font-size: 14px;
+      font-family: "Roboto", sans-serif; }
+      main .slider .main-carousel .og #but:hover {
+        background-color: rgba(0, 0, 255, 0.342); }
+    main .slider .main-carousel .tng .bg {
+      background: url("../img/slidernew4.jpg") no-repeat center;
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%; }
+    main .slider .main-carousel .tng .text {
+      padding: 0 60px;
+      position: relative;
+      transform: translateY(-50%);
+      top: 50%; }
+    main .slider .main-carousel .tng h1 {
+      text-shadow: 0px 0px 10px #000;
+      color: #fff;
+      font-family: "Monoton", cursive;
+      font-size: 76px;
+      font-weight: 700;
+      line-height: 1;
+      font-family: "Roboto", sans-serif; }
+    main .slider .main-carousel .tng p {
+      color: #fff;
+      /* font-family: 'Josefin Slab', serif; */
+      font-size: 24px;
+      text-shadow: 0px 0px 10px #000;
+      font-family: "Roboto", sans-serif; }
+    main .slider .main-carousel .tng #but {
+      width: 150px;
+      margin-left: 146px;
+      padding: 13px;
+      background-color: blue;
+      border-radius: 8px;
+      font-size: 14px;
+      font-family: "Roboto", sans-serif; }
+      main .slider .main-carousel .tng #but:hover {
+        background-color: rgba(0, 0, 255, 0.342); }
+  main .flickity-page-dots {
+    bottom: 25px; }
+  @media all and (max-width: 760px) {
+    main h1 {
+      font-size: 48px; }
+    main p {
+      font-size: 18px; }
+    main .carousel-cell {
+      height: 380px; } }
+  main .flickity-button {
+    background: transparent; }
+    main .flickity-button:hover {
+      background: #2250fc; }
+  main .flickity-prev-next-button {
+    width: 60px;
+    height: 60px; }
+  main .flickity-button-icon {
+    fill: white;
+    font-size: 10px !important; }
+  main .flickity-button:disabled {
+    display: none; }
+  main #welcome {
+    padding-top: 1cm; }
+    main #welcome h1 {
+      text-align: center;
+      font-size: 48px;
+      font-family: "Roboto", sans-serif; }
+    main #welcome hr {
+      width: 10%;
+      height: 2px;
+      background-color: blue; }
+    main #welcome p {
+      text-align: center;
+      color: #929292;
+      font-size: 20px;
+      font-family: "Roboto", sans-serif; }
+  main #what {
+    background-color: #f7f9fb;
+    padding-top: 2cm !important;
+    padding-bottom: 2cm !important; }
+    main #what h1 {
+      font-size: 48px;
+      font-family: "Roboto", sans-serif; }
+    main #what h5 {
+      font-size: 20px;
+      color: black; }
+    main #what p {
+      color: #929292;
+      font-size: 15px;
+      font-family: "Roboto", sans-serif;
+      padding-top: 1rem; }
+    main #what hr {
+      width: 15%;
+      height: 2px;
+      background-color: blue;
+      margin-left: 0px; }
+  main #recent {
+    padding-top: 2cm !important; }
+    main #recent h1 {
+      font-size: 48px;
+      font-family: "Roboto", sans-serif; }
+    main #recent hr {
+      width: 10%;
+      height: 1px;
+      background-color: blue;
+      margin-left: 0px; }
+    main #recent p {
+      color: #929292;
+      font-size: 16px;
+      font-family: "Roboto", sans-serif;
+      padding-top: 10px; }
+  main #services {
+    padding-top: 1.5cm !important;
+    padding-bottom: 2cm !important; }
+    main #services h1 {
+      text-align: center;
+      font-size: 48px;
+      font-family: "Roboto", sans-serif;
+      font-weight: 700; }
+    main #services hr {
+      width: 10%;
+      height: 2px;
+      background-color: blue; }
+    main #services p {
+      text-align: center;
+      color: #929292;
+      font-size: 20px;
+      font-family: "Roboto", sans-serif; }
+    main #services .item span {
+      color: black;
+      border-radius: 50%;
+      width: 45px;
+      height: 45px;
+      border: 2px solid black;
+      text-align: center;
+      cursor: pointer;
+      padding-top: 13px;
+      transition: all 0.5s; }
+      main #services .item span:hover {
+        font-size: 12px;
+        transform: scale(1.7); }
+    main #services .item h5 {
+      font-size: 17px;
+      color: black;
+      font-weight: bold; }
+    main #services .item p {
+      font-size: 14px;
+      text-align: left;
+      padding-top: 1rem !important; }
+  main #blog {
+    background: #f7f9fb;
+    padding-top: 2cm !important;
+    padding-bottom: 3cm !important; }
+    main #blog h1 {
+      font-size: 48px;
+      font-family: "Roboto", sans-serif;
+      font-weight: 700; }
+    main #blog hr {
+      width: 10%;
+      height: 1px;
+      background-color: blue;
+      margin-left: 0px; }
+    main #blog p {
+      color: #929292;
+      font-size: 16px;
+      font-family: "Roboto", sans-serif;
+      padding-top: 10px; }
+  main .card {
+    position: relative;
+    width: 22rem;
+    margin-left: -45px; }
+    main .card small {
+      padding-left: 17px; }
+      main .card small .jan {
+        padding-left: 17px; }
+    main .card h1 {
+      font-size: 22px !important;
+      padding-top: 5px; }
+    main .card p {
+      font-size: 13px;
+      font-family: "Roboto", sans-serif;
+      padding-top: 10px;
+      padding-bottom: 15px; }
+    main .card a {
+      font-size: 12px;
+      text-decoration: none;
+      color: black; }
+      main .card a:hover {
+        color: blue; }
+      main .card a:hover i {
+        margin-left: 10px;
+        transition: all 0.5s; }
+    main .card span {
+      position: absolute;
+      top: 2%;
+      right: 2%;
+      background: blue;
+      color: white;
+      padding: 4px 15px;
+      border-radius: 15px; }
+  main #client h1 {
+    text-align: center;
+    font-size: 48px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700; }
+  main #client hr {
+    width: 10%;
+    height: 2px;
+    background-color: blue; }
+  main #client p {
+    text-align: center;
+    color: #929292;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif; }
+  main #team {
+    padding-top: 2cm !important;
+    background-color: #f7f9fb;
+    padding-bottom: 2cm !important;
+    background-color: #f7f9fb; }
+    main #team .card-team h4 {
+      text-align: center;
+      font-size: 20px;
+      font-weight: 500; }
+    main #team .card-team p {
+      font-size: 17px; }
+    main #team .card-team i {
+      border-radius: 50%;
+      cursor: pointer;
+      border: 1px solid black;
+      width: 35px;
+      height: 35px;
+      padding-top: 10px; }
+      main #team .card-team i:hover {
+        transform: rotate(360deg);
+        transition: all 0.5s; }
+    main #team .card-team span {
+      display: none; }
+    main #team h1 {
+      text-align: center;
+      font-size: 48px;
+      font-family: "Roboto", sans-serif;
+      font-weight: 700; }
+    main #team hr {
+      width: 10%;
+      height: 2px;
+      background-color: blue; }
+    main #team p {
+      text-align: center;
+      color: #929292;
+      font-size: 20px;
+      font-family: "Roboto", sans-serif; }
+  main .carousel-showmanymoveone .carousel-control {
+    width: 4%;
+    background-image: none; }
+    main .carousel-showmanymoveone .carousel-control.left {
+      margin-left: 15px; }
+    main .carousel-showmanymoveone .carousel-control.right {
+      margin-right: 15px; }
+  main .carousel-showmanymoveone .cloneditem-1,
+  main .carousel-showmanymoveone .cloneditem-2,
+  main .carousel-showmanymoveone .cloneditem-3 {
+    display: none; }
+@media all and (min-width: 768px) and (transform-3d), all and (min-width: 768px) and (-webkit-transform-3d) {
+  main .carousel-showmanymoveone .carousel-inner > .item.active.right,
+  main .carousel-showmanymoveone .carousel-inner > .item.next {
+    transform: translate3d(50%, 0, 0);
+    left: 0; }
+  main .carousel-showmanymoveone .carousel-inner > .item.active.left,
+  main .carousel-showmanymoveone .carousel-inner > .item.prev {
+    transform: translate3d(-50%, 0, 0);
+    left: 0; }
+  main .carousel-showmanymoveone .carousel-inner > .item.left,
+  main .carousel-showmanymoveone .carousel-inner > .item.prev.right,
+  main .carousel-showmanymoveone .carousel-inner > .item.active {
+    transform: translate3d(0, 0, 0);
+    left: 0; } }
+  @media all and (min-width: 768px) {
+    main .carousel-showmanymoveone .carousel-inner > .active.left,
+    main .carousel-showmanymoveone .carousel-inner > .prev {
+      left: -50%; }
+    main .carousel-showmanymoveone .carousel-inner > .active.right,
+    main .carousel-showmanymoveone .carousel-inner > .next {
+      left: 50%; }
+    main .carousel-showmanymoveone .carousel-inner > .left,
+    main .carousel-showmanymoveone .carousel-inner > .prev.right,
+    main .carousel-showmanymoveone .carousel-inner > .active {
+      left: 0; }
+    main .carousel-showmanymoveone .carousel-inner .cloneditem-1 {
+      display: block; } }
+@media all and (min-width: 992px) and (transform-3d), all and (min-width: 992px) and (-webkit-transform-3d) {
+  main .carousel-showmanymoveone .carousel-inner > .item.active.right,
+  main .carousel-showmanymoveone .carousel-inner > .item.next {
+    transform: translate3d(25%, 0, 0);
+    left: 0; }
+  main .carousel-showmanymoveone .carousel-inner > .item.active.left,
+  main .carousel-showmanymoveone .carousel-inner > .item.prev {
+    transform: translate3d(-25%, 0, 0);
+    left: 0; }
+  main .carousel-showmanymoveone .carousel-inner > .item.left,
+  main .carousel-showmanymoveone .carousel-inner > .item.prev.right,
+  main .carousel-showmanymoveone .carousel-inner > .item.active {
+    transform: translate3d(0, 0, 0);
+    left: 0; } }
+  @media all and (min-width: 992px) {
+    main .carousel-showmanymoveone .carousel-inner > .active.left,
+    main .carousel-showmanymoveone .carousel-inner > .prev {
+      left: -25%; }
+    main .carousel-showmanymoveone .carousel-inner > .active.right,
+    main .carousel-showmanymoveone .carousel-inner > .next {
+      left: 25%; }
+    main .carousel-showmanymoveone .carousel-inner > .left,
+    main .carousel-showmanymoveone .carousel-inner > .prev.right,
+    main .carousel-showmanymoveone .carousel-inner > .active {
+      left: 0; }
+    main .carousel-showmanymoveone .carousel-inner .cloneditem-2,
+    main .carousel-showmanymoveone .carousel-inner .cloneditem-3 {
+      display: block; } }
+  main p {
+    font-family: "Open Sans", sans-serif;
+    color: #333;
+    margin-bottom: 2em; }
+  main h2 {
+    margin: 2em 0 1em; }
+  main .logo {
+    margin: 20px auto;
+    height: 100px; }
+    @media only screen and (min-width: 768px) {
+      main .logo {
+        margin: 28px;
+        float: left; } }
+  main .title {
+    padding: 28px;
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    text-align: center; }
+
+/* Home Page - Main End */
+/* Accordion,Button,Datatable,Date,Form,Image - Navbar Start */
+header .head-bg1 .nav1 {
+  height: 20px;
+  padding-top: 20px;
+  padding-bottom: 3px; }
+  header .head-bg1 .nav1 .navbar-brand {
+    font-size: 12px; }
+    header .head-bg1 .nav1 .navbar-brand:hover {
+      color: blue; }
+  header .head-bg1 .nav1 ul li {
+    padding-left: 3px;
+    padding-right: 3px; }
+    header .head-bg1 .nav1 ul li:hover .one {
+      background-color: #5d82d1;
+      color: white;
+      transition: all 0.5s;
+      transform: rotate(360deg); }
+    header .head-bg1 .nav1 ul li:hover .two {
+      background-color: #40bff5;
+      color: white;
+      transition: all 0.5s;
+      transform: rotate(360deg); }
+    header .head-bg1 .nav1 ul li:hover .three {
+      background-color: #eb5e4c;
+      color: white;
+      transition: all 0.5s;
+      transform: rotate(360deg); }
+    header .head-bg1 .nav1 ul li:hover .four {
+      background-color: #e13138;
+      color: white;
+      transition: all 0.5s;
+      transform: rotate(360deg); }
+    header .head-bg1 .nav1 ul li:hover .five {
+      background-color: #35c6ea;
+      color: white;
+      transition: all 0.5s;
+      transform: rotate(360deg); }
+    header .head-bg1 .nav1 ul li:hover .six {
+      background-color: #238cc8;
+      color: white;
+      transition: all 0.5s;
+      transform: rotate(360deg); }
+    header .head-bg1 .nav1 ul li:hover .seven {
+      background-color: #f7659c;
+      color: white;
+      transition: all 0.5s;
+      transform: rotate(360deg); }
+    header .head-bg1 .nav1 ul li:hover .eight {
+      background-color: #ef4e41;
+      color: white;
+      transition: all 0.5s;
+      transform: rotate(360deg); }
+    header .head-bg1 .nav1 ul li:hover .nine {
+      background-color: #faa33d;
+      color: white;
+      transition: all 0.5s;
+      transform: rotate(-360deg); }
+    header .head-bg1 .nav1 ul li i {
+      font-size: 15px; }
+header .head-bg2 {
+  height: 80px;
+  margin-top: -16px;
+  background: white !important; }
+  header .head-bg2 .nav2 {
+    height: 80px;
+    padding-bottom: 20px; }
+    header .head-bg2 .nav2 img {
+      height: 70px; }
+    header .head-bg2 .nav2 #navbarNav {
+      font-size: 12px; }
+      header .head-bg2 .nav2 #navbarNav ul {
+        font-size: 12px; }
+        header .head-bg2 .nav2 #navbarNav ul li {
+          padding-left: 10px; }
+          header .head-bg2 .nav2 #navbarNav ul li:hover .dropdown-menu {
+            display: block; }
+            header .head-bg2 .nav2 #navbarNav ul li:hover .dropdown-menu a {
+              color: black !important;
+              opacity: 0.6;
+              padding: 10px !important; }
+              header .head-bg2 .nav2 #navbarNav ul li:hover .dropdown-menu a:hover {
+                color: #2250fc !important;
+                background: none !important; }
+          header .head-bg2 .nav2 #navbarNav ul li a {
+            font-size: 12px;
+            font-weight: 700; }
+    header .head-bg2 .nav2 .head-nav2-icon {
+      height: 100%;
+      padding-top: 16px; }
+      header .head-bg2 .nav2 .head-nav2-icon ul {
+        list-style-type: none;
+        display: flex;
+        font-size: 12px;
+        padding-left: 12px; }
+        header .head-bg2 .nav2 .head-nav2-icon ul li {
+          padding-right: 10px; }
+          header .head-bg2 .nav2 .head-nav2-icon ul li a {
+            color: black; }
+            header .head-bg2 .nav2 .head-nav2-icon ul li a i {
+              position: relative; }
+              header .head-bg2 .nav2 .head-nav2-icon ul li a i p {
+                color: white;
+                background-color: blue;
+                border-radius: 50%;
+                width: 13px;
+                height: 13px;
+                text-align: center;
+                padding-top: 1px;
+                font-size: 10px;
+                position: absolute;
+                position: absolute;
+                top: -70%;
+                right: -35%; }
+
+@media screen and (max-width: 992px) {
+  .head-bg1 {
+    display: none; } }
+/* Accordion,Button,Datatable,Date,Form,Image - Navbar End */
+/* Accordion Page - Main Start */
+main #accordion {
+  margin-top: 0px;
+  background-color: whitesmoke;
+  height: 350px;
+  padding-top: 1px; }
+  main #accordion .accordion-header {
+    padding-top: 80px;
+    text-align: center; }
+    main #accordion .accordion-header h1 {
+      font-size: 44px;
+      color: black; }
+    main #accordion .accordion-header p {
+      color: gray;
+      font-size: 16px;
+      margin-top: 10px; }
+  main #accordion .accordion-list {
+    text-align: center; }
+    main #accordion .accordion-list ul li {
+      display: inline-block;
+      list-style-type: none; }
+      main #accordion .accordion-list ul li a {
+        font-size: 14px;
+        color: gray;
+        text-decoration: none; }
+        main #accordion .accordion-list ul li a:hover {
+          color: blue; }
+main hr {
+  width: 100%; }
+main #element .element-list ul {
+  margin-top: 5px; }
+  main #element .element-list ul h1 {
+    font-size: 16px;
+    font-weight: 600; }
+  main #element .element-list ul li {
+    list-style-type: none;
+    margin-top: 12px; }
+    main #element .element-list ul li a {
+      text-decoration: none;
+      color: black; }
+      main #element .element-list ul li a:hover {
+        color: blue; }
+main #element .accordion {
+  width: 800px;
+  margin: 0 auto; }
+  main #element .accordion h1 {
+    font-size: 22px; }
+  main #element .accordion .title {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: black;
+    transition: background-color;
+    cursor: pointer;
+    border: 1px solid silver;
+    margin-top: 10px;
+    border-radius: 5px; }
+  main #element .accordion .content {
+    box-sizing: border-box;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 1s; }
+    main #element .accordion .content p {
+      padding: 0 20px; }
+main #element hr {
+  width: 100%;
+  padding-top: 1cm; }
+main #element .accordion-shadow .title {
+  box-shadow: 0px 0px 9px grey; }
+main #element .With-icons .title {
+  box-shadow: 0px 0px 6px gray; }
+main #element .Simple hr {
+  width: 100%;
+  padding-top: 0.1cm; }
+main #element .Simple .title {
+  border: none !important; }
+main #element .Flat .title {
+  border: none !important; }
+main #element .Dark .title {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  transition: background-color;
+  cursor: pointer;
+  margin-top: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 17px; }
+main #element .Dark .content {
+  box-sizing: border-box;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 1s;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: black; }
+  main #element .Dark .content p {
+    color: white !important; }
+main #element .Dark hr {
+  margin-top: 60px; }
+main #element .end-accordion .title {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  transition: background-color;
+  cursor: pointer;
+  margin-top: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 17px; }
+main #element .end-accordion .content {
+  box-sizing: border-box;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 1s;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: blue; }
+  main #element .end-accordion .content p {
+    color: white !important; }
+main #element .end-accordion hr {
+  margin-top: 60px; }
+
+/* Accordion Page - Main End */
+/* Form Page - Main Start */
+main #forms .element-list ul {
+  margin-top: 5px; }
+  main #forms .element-list ul h1 {
+    font-size: 16px;
+    font-weight: 600; }
+  main #forms .element-list ul li {
+    list-style-type: none;
+    margin-top: 12px; }
+    main #forms .element-list ul li a {
+      text-decoration: none;
+      color: black; }
+      main #forms .element-list ul li a:hover {
+        color: blue; }
+main #forms .form-form {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 30px; }
+main #forms hr {
+  width: 100%;
+  margin-top: 1cm; }
+main #forms .form-control-file {
+  padding: 6px;
+  border: 1px thin silver;
+  border: 1px solid gainsboro;
+  border-radius: 5px; }
+main form:last-child {
+  padding-bottom: 2cm !important; }
+
+/* Form Page - Main End */
+/* Image Page - Main Start */
+main #images #images-content h2 {
+  font-size: 31px;
+  color: black;
+  margin-bottom: 27px; }
+main #images #images-content p {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 24px; }
+main #images-round #images-content img {
+  border-radius: 50%; }
+main #images-round #images-content h2 {
+  font-size: 31px;
+  color: black;
+  margin-bottom: 27px; }
+main #images-round #images-content p {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 24px; }
+main #images-thumb {
+  padding-bottom: 4cm; }
+  main #images-thumb #images-content img {
+    width: 100%; }
+  main #images-thumb #images-content h2 {
+    font-size: 31px;
+    color: black;
+    margin-bottom: 27px; }
+  main #images-thumb #images-content p {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 24px; }
+@media screen and (max-width: 576px) {
+  main form:first-child {
+    display: none; } }
+
+/* Image Page - Main End */
+/* Button Page - Main Start */
+main #button #accordion {
+  margin-top: 0px;
+  background-color: whitesmoke;
+  height: 350px;
+  padding-top: 1px; }
+  main #button #accordion .accordion-header {
+    padding-top: 80px;
+    text-align: center; }
+    main #button #accordion .accordion-header h1 {
+      font-size: 44px;
+      color: black; }
+    main #button #accordion .accordion-header p {
+      color: gray;
+      font-size: 16px;
+      margin-top: 10px; }
+  main #button #accordion .accordion-list {
+    text-align: center; }
+    main #button #accordion .accordion-list ul li {
+      display: inline-block;
+      list-style-type: none; }
+      main #button #accordion .accordion-list ul li a {
+        font-size: 14px;
+        color: gray;
+        text-decoration: none; }
+        main #button #accordion .accordion-list ul li a:hover {
+          color: blue; }
+main #button hr {
+  width: 100%; }
+main #button .element-list ul {
+  margin-top: 5px; }
+  main #button .element-list ul h1 {
+    font-size: 16px;
+    font-weight: 600; }
+  main #button .element-list ul li {
+    list-style-type: none;
+    margin-top: 12px; }
+    main #button .element-list ul li a {
+      text-decoration: none;
+      color: black; }
+      main #button .element-list ul li a:hover {
+        color: blue; }
+main #button .item h1 {
+  font-weight: 600;
+  font-size: 15px;
+  color: black; }
+main #button .item .but1 {
+  width: 60px;
+  height: 25px;
+  padding-top: 0px;
+  font-weight: 600;
+  font-size: 13px; }
+main #button .item .but2 {
+  width: 80px;
+  height: 35px;
+  font-weight: 600;
+  font-size: 14px; }
+main #button .item .but3 {
+  width: 110px;
+  height: 43px;
+  font-weight: 600; }
+main #button .item .but4 {
+  width: 150px;
+  height: 60px;
+  font-weight: 600; }
+main #button .round h1 {
+  font-weight: 600;
+  font-size: 15px;
+  color: black; }
+main #button .round .but1 {
+  width: 100px;
+  height: 35px;
+  border-radius: 20px;
+  font-weight: 600; }
+main #button .round .but2 {
+  width: 100px;
+  height: 35px;
+  border-radius: 20px;
+  font-weight: 600;
+  background: none;
+  color: blue;
+  border: 2px solid blue; }
+  main #button .round .but2:hover {
+    background: blue;
+    transition: all 0.5s;
+    color: white; }
+main #button .round .but3 {
+  width: 80px;
+  height: 35px;
+  font-weight: 600;
+  border-radius: 20px; }
+main #button .round .but4 {
+  width: 80px;
+  height: 35px;
+  font-weight: 600;
+  border-radius: 20px; }
+main #button .outline h1 {
+  font-weight: 600;
+  font-size: 15px;
+  color: black; }
+main #button .outline .but1 {
+  width: 100px;
+  height: 35px;
+  font-weight: 600;
+  background: none;
+  color: blue;
+  border: 2px solid blue; }
+  main #button .outline .but1:hover {
+    background: blue;
+    transition: all 0.5s;
+    color: white; }
+main #button .outline .but2 {
+  width: 100px;
+  height: 35px;
+  border-radius: 20px;
+  font-weight: 600;
+  background: none;
+  color: blue;
+  border: 2px solid blue; }
+  main #button .outline .but2:hover {
+    background: blue;
+    transition: all 0.5s;
+    color: white; }
+main #button .outline .but3 {
+  width: 80px;
+  height: 35px;
+  font-weight: 600;
+  background: none;
+  color: black;
+  border: 2px solid black; }
+  main #button .outline .but3:hover {
+    background: black;
+    transition: all 0.5s;
+    color: white; }
+main #button .outline .but4 {
+  width: 80px;
+  height: 35px;
+  font-weight: 600;
+  border-radius: 20px;
+  background: none;
+  border: 2px solid black; }
+  main #button .outline .but4:hover {
+    background: black;
+    transition: all 0.5s;
+    color: white; }
+main #button .Shadow h1 {
+  font-weight: 600;
+  font-size: 15px;
+  color: black; }
+main #button .Shadow .but2 {
+  border-radius: 20px;
+  background: white; }
+  main #button .Shadow .but2:hover {
+    box-shadow: 0px 0px 3px #d4cfcf;
+    transition: all o 0.5s; }
+main #button .Shadow .but3 {
+  background: white; }
+  main #button .Shadow .but3:hover {
+    box-shadow: 0px 0px 3px #d4cfcf;
+    transition: all o 0.5s; }
+main #button .Shadow .but4:hover {
+  box-shadow: 0px 0px 3px #d4cfcf;
+  transition: all o 0.5s; }
+main #button .icon-marker h1 {
+  font-size: 15px;
+  color: black; }
+main #button .icon-marker .but1 {
+  padding-right: 10px;
+  position: relative; }
+  main #button .icon-marker .but1 i {
+    padding-right: 3px;
+    padding-left: 23px; }
+main #button .icon-marker .xet {
+  width: 1px;
+  height: 38px;
+  background: #cfcccc;
+  position: absolute;
+  top: 0px;
+  left: 95px; }
+main #button .icon-marker .xet3 {
+  width: 1px;
+  height: 38px;
+  background: #cfcccc;
+  position: absolute;
+  top: 0px;
+  left: 100px; }
+main #button .icon-marker .but2 {
+  background-color: white;
+  border: none;
+  box-shadow: 0px 0px 30px 0px gainsboro;
+  padding-left: 20px;
+  padding-right: 10px;
+  position: relative; }
+  main #button .icon-marker .but2 i {
+    padding-left: 32px; }
+  main #button .icon-marker .but2:hover {
+    box-shadow: 0px 0px 10px 0px gainsboro; }
+main #button .icon-marker .but3 {
+  width: 130px;
+  height: 38px;
+  border-radius: 20px;
+  font-weight: 600;
+  background: none;
+  color: blue;
+  border: 2px solid blue;
+  position: relative; }
+  main #button .icon-marker .but3 i {
+    padding-left: 17px; }
+  main #button .icon-marker .but3:hover {
+    background: blue;
+    transition: all 0.5s;
+    color: white; }
+main #button .icon-marker .but4 {
+  background-color: black;
+  border: none;
+  box-shadow: 0px 0px 30px 0px gainsboro;
+  padding-left: 20px;
+  padding-right: 10px;
+  position: relative; }
+  main #button .icon-marker .but4 i {
+    padding-left: 32px; }
+  main #button .icon-marker .but4:hover {
+    box-shadow: 0px 0px 10px 0px gainsboro; }
+main #button .special h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: black; }
+main #button .special p {
+  padding-top: 15px;
+  font-size: 17px; }
+main #button .special .creative-button {
+  position: relative; }
+  main #button .special .creative-button button {
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: white; }
+    main #button .special .creative-button button:hover {
+      box-shadow: 2px 2px 10px gray; }
+    main #button .special .creative-button button i {
+      padding-left: 40px; }
+  main #button .special .creative-button .xet {
+    width: 1px;
+    height: 62px;
+    background: #cfcccc;
+    position: absolute;
+    top: 0px;
+    left: 195px; }
+main #button .social-button h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+  opacity: 0.6; }
+main #button .social-button .all-button .btn-face1 {
+  padding-right: 0px;
+  cursor: pointer; }
+  main #button .social-button .all-button .btn-face1 i {
+    color: white;
+    padding: 10px 15px;
+    background-color: #3b5998;
+    border-radius: 5px; }
+main #button .social-button .all-button .btn-twit1 {
+  padding-right: 0px;
+  padding-left: 5px;
+  cursor: pointer; }
+  main #button .social-button .all-button .btn-twit1 i {
+    color: white;
+    padding: 10px 15px;
+    background-color: #1da1f2;
+    border-radius: 5px; }
+main #button .social-button .all-button .btn-link1 {
+  padding-right: 0px;
+  padding-left: 5px;
+  cursor: pointer; }
+  main #button .social-button .all-button .btn-link1 i {
+    color: white;
+    padding: 10px 15px;
+    background-color: #007bb6;
+    border-radius: 5px; }
+main #button .social-button .all-button .btn-drib1 {
+  padding-right: 0px;
+  padding-left: 5px;
+  cursor: pointer; }
+  main #button .social-button .all-button .btn-drib1 i {
+    color: white;
+    padding: 10px 15px;
+    background-color: #ea4c89;
+    border-radius: 5px; }
+main #button .social-button .all-button .btn-goog1 {
+  padding-right: 0px;
+  padding-left: 5px;
+  cursor: pointer; }
+  main #button .social-button .all-button .btn-goog1 i {
+    color: white;
+    padding: 10px 15px;
+    background-color: #dd4b39;
+    border-radius: 5px; }
+main #button .social-button .all-button .btn-inst1 {
+  padding-right: 0px;
+  padding-left: 5px;
+  cursor: pointer; }
+  main #button .social-button .all-button .btn-inst1 i {
+    color: white;
+    padding: 10px 15px;
+    background-color: #517fa4;
+    border-radius: 5px; }
+main #button .social-button .all-button .btn-pint1 {
+  padding-right: 0px;
+  padding-left: 5px;
+  cursor: pointer; }
+  main #button .social-button .all-button .btn-pint1 i {
+    color: white;
+    padding: 10px 15px;
+    background-color: #cb2027;
+    border-radius: 5px; }
+main #button .social-button .all-button .btn-drop1 {
+  padding-right: 0px;
+  padding-left: 5px;
+  cursor: pointer; }
+  main #button .social-button .all-button .btn-drop1 i {
+    color: white;
+    padding: 10px 15px;
+    background-color: #007ee5;
+    border-radius: 5px; }
+main #button .social-button .all-button .btn-flic1 {
+  padding-right: 0px;
+  padding-left: 5px;
+  cursor: pointer; }
+  main #button .social-button .all-button .btn-flic1 i {
+    color: white;
+    padding: 10px 15px;
+    background-color: #ff0084;
+    border-radius: 5px; }
+main #button .social-button .all-button .btn-tum1 {
+  padding-right: 0px;
+  padding-left: 5px;
+  cursor: pointer; }
+  main #button .social-button .all-button .btn-tum1 i {
+    color: white;
+    padding: 10px 15px;
+    background-color: #32506d;
+    border-radius: 5px; }
+main #button .social-button .all-button .btn-sky1 {
+  padding-right: 0px;
+  padding-left: 5px;
+  cursor: pointer; }
+  main #button .social-button .all-button .btn-sky1 i {
+    color: white;
+    padding: 10px 15px;
+    background-color: #00aff0;
+    border-radius: 5px; }
+main #button .social-button .all-button .btn-you1 {
+  padding-right: 0px;
+  padding-left: 5px;
+  cursor: pointer; }
+  main #button .social-button .all-button .btn-you1 i {
+    color: white;
+    padding: 10px 15px;
+    background-color: #b00;
+    border-radius: 5px; }
+main #button .social-button .all-button .btn-git1 {
+  padding-right: 0px;
+  padding-left: 5px;
+  cursor: pointer; }
+  main #button .social-button .all-button .btn-git1 i {
+    color: white;
+    padding: 10px 15px;
+    background-color: #171515;
+    border-radius: 5px; }
+main #button .social-button .all-button .btn-face2 {
+  color: white;
+  background-color: #3b5998;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 15px;
+  height: 35px;
+  cursor: pointer; }
+  main #button .social-button .all-button .btn-face2 i {
+    color: #3b5998;
+    background-color: white;
+    width: 12px;
+    font-size: 10px;
+    padding: 2px;
+    margin-right: 5px; }
+main #button .social-button .all-button .btn-twit2 {
+  color: white;
+  background-color: #1da1f2;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 10px;
+  height: 35px;
+  cursor: pointer; }
+  main #button .social-button .all-button .btn-twit2 i {
+    color: white;
+    margin-right: 5px; }
+main #button .social-button .all-button .btn-link2 {
+  color: white;
+  background-color: #007bb6;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 10px;
+  height: 35px;
+  cursor: pointer; }
+  main #button .social-button .all-button .btn-link2 i {
+    color: #3b5998;
+    background-color: white;
+    width: 12px;
+    font-size: 10px;
+    padding: 2px;
+    margin-right: 5px; }
+main #button .social-button .all-button .btn-drib2 {
+  color: white;
+  background-color: #ea4c89;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 10px;
+  height: 35px;
+  cursor: pointer; }
+  main #button .social-button .all-button .btn-drib2 i {
+    color: white;
+    margin-right: 5px; }
+main #button .social-button .all-button .btn-goog2 {
+  color: white;
+  background-color: #dd4b39;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 10px;
+  height: 35px;
+  cursor: pointer; }
+  main #button .social-button .all-button .btn-goog2 i {
+    color: white;
+    margin-right: 5px; }
+main #button .social-button .all-button .btn-inst2 {
+  color: white;
+  background-color: #517fa4;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 10px;
+  height: 35px;
+  cursor: pointer; }
+  main #button .social-button .all-button .btn-inst2 i {
+    color: white;
+    margin-right: 5px; }
+main #button .social-button .all-button .btn-pint2 {
+  color: white;
+  background-color: #cb2027;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 15px;
+  height: 35px;
+  cursor: pointer; }
+  main #button .social-button .all-button .btn-pint2 i {
+    color: white;
+    margin-right: 5px; }
+main #button .social-button .all-button .btn-drop2 {
+  color: white;
+  background-color: #007ee5;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 10px;
+  height: 35px;
+  cursor: pointer; }
+  main #button .social-button .all-button .btn-drop2 i {
+    color: white;
+    margin-right: 5px; }
+main #button .social-button .all-button .btn-flic2 {
+  color: white;
+  background-color: #ff0084;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 10px;
+  height: 35px;
+  cursor: pointer; }
+  main #button .social-button .all-button .btn-flic2 i {
+    color: white;
+    margin-right: 5px; }
+main #button .social-button .all-button .btn-tum2 {
+  color: white;
+  background-color: #32506d;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 10px;
+  height: 35px;
+  cursor: pointer; }
+  main #button .social-button .all-button .btn-tum2 i {
+    color: white;
+    margin-right: 5px; }
+main #button .social-button .all-button .btn-sky2 {
+  color: white;
+  background-color: #00aff0;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 10px;
+  height: 35px;
+  cursor: pointer; }
+  main #button .social-button .all-button .btn-sky2 i {
+    color: white;
+    margin-right: 5px; }
+main #button .social-button .all-button .btn-you2 {
+  color: white;
+  background-color: #b00;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 10px;
+  height: 35px;
+  cursor: pointer; }
+  main #button .social-button .all-button .btn-you2 i {
+    color: white;
+    margin-right: 5px; }
+main #button .social-button .all-button .btn-git2 {
+  color: white;
+  background-color: #171515;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 15px;
+  height: 35px;
+  cursor: pointer; }
+  main #button .social-button .all-button .btn-git2 i {
+    color: white;
+    margin-right: 5px; }
+main #button .buttons-with h1 {
+  font-size: 16px; }
+main #button .buttons-with .btn-default {
+  color: white;
+  background-color: blue;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 10px;
+  height: 35px;
+  cursor: pointer; }
+  main #button .buttons-with .btn-default:hover {
+    background-color: #0333e8; }
+  main #button .buttons-with .btn-default i {
+    color: white;
+    margin-right: 5px; }
+main #button .buttons-with .btn-icon-right {
+  color: white;
+  background-color: blue;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 10px;
+  height: 35px;
+  cursor: pointer;
+  padding-top: 8px; }
+  main #button .buttons-with .btn-icon-right:hover {
+    background-color: #0333e8; }
+  main #button .buttons-with .btn-icon-right i {
+    color: white;
+    margin-right: 5px; }
+main #button .buttons-with .btn-outline {
+  color: #0333e8;
+  background-color: white;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 10px;
+  height: 35px;
+  cursor: pointer;
+  border: 2px solid #0333e8; }
+  main #button .buttons-with .btn-outline:hover {
+    color: white;
+    background-color: #0333e8; }
+  main #button .buttons-with .btn-outline:hover i {
+    color: white; }
+  main #button .buttons-with .btn-outline i {
+    color: #0333e8;
+    margin-right: 5px; }
+main #button .buttons-with .btn-dark {
+  color: white;
+  background-color: #343a40;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 10px;
+  height: 35px;
+  cursor: pointer; }
+  main #button .buttons-with .btn-dark i {
+    color: white;
+    margin-right: 5px; }
+main #button .buttons-with .btn-light1 {
+  color: black;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 10px;
+  height: 35px;
+  cursor: pointer;
+  border: 1px solid silver; }
+  main #button .buttons-with .btn-light1:hover {
+    background-color: #f8f9fa; }
+  main #button .buttons-with .btn-light1 i {
+    color: black;
+    margin-right: 5px; }
+main #button .buttons-with .btn-light2 {
+  color: black;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 10px;
+  height: 35px;
+  cursor: pointer;
+  border: 2px solid black; }
+  main #button .buttons-with .btn-light2:hover {
+    background-color: black;
+    color: white; }
+  main #button .buttons-with .btn-light2:hover i {
+    color: white; }
+  main #button .buttons-with .btn-light2 i {
+    color: black;
+    margin-right: 5px; }
+main #button .buttons-with2 h1 {
+  font-size: 16px; }
+main #button .buttons-with2 .btn-outline-mini {
+  padding-right: 0px;
+  cursor: pointer; }
+  main #button .buttons-with2 .btn-outline-mini i {
+    color: white;
+    padding: 12px 15px;
+    background-color: #2250fc;
+    border-radius: 5px;
+    font-size: 12px; }
+    main #button .buttons-with2 .btn-outline-mini i:hover {
+      background-color: blue;
+      transition: all 0.5s; }
+main #button .buttons-with2 .btn-trash-mini {
+  padding-right: 0px;
+  padding-left: 5px;
+  cursor: pointer; }
+  main #button .buttons-with2 .btn-trash-mini i {
+    color: #2250fc;
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid #2250fc;
+    font-size: 12px; }
+    main #button .buttons-with2 .btn-trash-mini i:hover {
+      background-color: blue;
+      color: white;
+      transition: all 0.5s; }
+main #button .buttons-with2 .btn-wifi-mini {
+  padding-right: 0px;
+  padding-left: 5px;
+  cursor: pointer; }
+  main #button .buttons-with2 .btn-wifi-mini i {
+    color: white;
+    padding: 12px 15px;
+    background-color: #000;
+    border-radius: 5px;
+    font-size: 12px; }
+    main #button .buttons-with2 .btn-wifi-mini i:hover {
+      background-color: #1d2124;
+      transition: all 0.5s; }
+main #button .buttons-with2 .btn-cog-mini {
+  padding-right: 0px;
+  padding-left: 5px;
+  cursor: pointer; }
+  main #button .buttons-with2 .btn-cog-mini i {
+    color: #212529;
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    border: 2px solid #ebebeb; }
+    main #button .buttons-with2 .btn-cog-mini i:hover {
+      background-color: #dae0e5;
+      transition: all 0.5s; }
+main #button .buttons-with2 .btn-uni-mini {
+  padding-right: 0px;
+  padding-left: 5px;
+  cursor: pointer; }
+  main #button .buttons-with2 .btn-uni-mini i {
+    color: black;
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid;
+    font-size: 12px; }
+    main #button .buttons-with2 .btn-uni-mini i:hover {
+      background-color: black;
+      color: white;
+      transition: all 0.5s; }
+main #button .buttons-with2 .btn-paper-mini {
+  padding-right: 0px;
+  padding-left: 5px;
+  cursor: pointer; }
+  main #button .buttons-with2 .btn-paper-mini i {
+    color: white;
+    padding: 12px 15px;
+    background-color: #0333e8;
+    border-radius: 5px;
+    font-size: 12px; }
+    main #button .buttons-with2 .btn-paper-mini i:hover {
+      background-color: blue;
+      transition: all 0.5s; }
+main #button .buttons-with2 .btn-reply-mini {
+  padding-right: 0px;
+  padding-left: 5px;
+  cursor: pointer; }
+  main #button .buttons-with2 .btn-reply-mini i {
+    color: white;
+    padding: 12px 15px;
+    background-color: #2299f6;
+    border-radius: 5px;
+    font-size: 12px; }
+main #button .buttons-with2 .btn-leaf-mini {
+  padding-right: 0px;
+  padding-left: 5px;
+  cursor: pointer; }
+  main #button .buttons-with2 .btn-leaf-mini i {
+    color: white;
+    padding: 10px 15px;
+    background-color: #62b944;
+    border-radius: 5px; }
+    main #button .buttons-with2 .btn-leaf-mini i:hover {
+      background-color: #1e7e34;
+      transition: all 0.5s; }
+main #button .buttons-with2 .btn-light-mini {
+  padding-right: 0px;
+  padding-left: 5px;
+  cursor: pointer; }
+  main #button .buttons-with2 .btn-light-mini i {
+    color: white;
+    padding: 10px 15px;
+    background-color: #d39e00;
+    border-radius: 5px; }
+    main #button .buttons-with2 .btn-light-mini i:hover {
+      background-color: #ffc107;
+      transition: all 0.5s; }
+main #button .buttons-with2 .btn-circle-mini {
+  padding-right: 0px;
+  padding-left: 5px;
+  cursor: pointer; }
+  main #button .buttons-with2 .btn-circle-mini i {
+    color: white;
+    padding: 10px 15px;
+    background-color: #f33e5b;
+    border-radius: 5px; }
+    main #button .buttons-with2 .btn-circle-mini i:hover {
+      background-color: #c82333;
+      transition: all 0.5s; }
+main #button .reveal {
+  width: 100%; }
+  main #button .reveal h1 {
+    font-size: 15px; }
+  main #button .reveal .but1 {
+    width: 100px;
+    border-radius: 30px;
+    padding: 2px;
+    font-size: 13px;
+    background-color: #2250fc;
+    cursor: pointer; }
+    main #button .reveal .but1:hover {
+      background-color: blue; }
+    main #button .reveal .but1:hover i {
+      left: 90px;
+      opacity: 1;
+      transition: all 0.3s; }
+    main #button .reveal .but1:hover span {
+      right: 10px; }
+    main #button .reveal .but1 span {
+      color: white;
+      position: relative;
+      font-size: 11px;
+      font-weight: 700; }
+    main #button .reveal .but1 i {
+      color: white;
+      position: absolute;
+      left: 70px;
+      top: 7px;
+      opacity: 0;
+      font-size: 10px; }
+  main #button .reveal .but2 {
+    width: 110px;
+    border-radius: 30px;
+    padding: 5px;
+    font-size: 13px;
+    background-color: #2250fc;
+    cursor: pointer; }
+    main #button .reveal .but2:hover {
+      background-color: blue; }
+    main #button .reveal .but2:hover i {
+      left: 90px;
+      opacity: 1;
+      transition: all 0.3s; }
+    main #button .reveal .but2:hover span {
+      right: 10px; }
+    main #button .reveal .but2 span {
+      color: white;
+      position: relative;
+      font-size: 12px;
+      font-weight: 700; }
+    main #button .reveal .but2 i {
+      color: white;
+      position: absolute;
+      left: 70px;
+      top: 10px;
+      opacity: 0;
+      font-size: 10px; }
+  main #button .reveal .but3 {
+    width: 130px;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 13px;
+    background-color: #2250fc;
+    border: none;
+    cursor: pointer; }
+    main #button .reveal .but3:hover {
+      background-color: blue; }
+    main #button .reveal .but3:hover i {
+      left: 120px;
+      opacity: 1;
+      transition: all 0.3s; }
+    main #button .reveal .but3:hover span {
+      right: 10px; }
+    main #button .reveal .but3 span {
+      color: white;
+      position: relative;
+      font-size: 14px;
+      font-weight: 700; }
+    main #button .reveal .but3 i {
+      color: white;
+      position: absolute;
+      left: 90px;
+      top: 15px;
+      opacity: 0;
+      font-size: 12px; }
+  main #button .reveal .but4 {
+    width: 175px;
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 13px;
+    background-color: #2250fc; }
+    main #button .reveal .but4:hover {
+      background-color: blue; }
+    main #button .reveal .but4:hover i {
+      left: 145px;
+      opacity: 1;
+      transition: all 0.5s; }
+    main #button .reveal .but4:hover span {
+      right: 20px; }
+    main #button .reveal .but4 span {
+      color: white;
+      position: relative;
+      font-size: 18px;
+      font-weight: 700; }
+    main #button .reveal .but4 i {
+      color: white;
+      position: absolute;
+      left: 125px;
+      top: 21px;
+      font-size: 15px;
+      opacity: 0; }
+  main #button .reveal .but5 {
+    width: 130px;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 13px;
+    background-color: white;
+    border: 2px solid #2250fc;
+    cursor: pointer; }
+    main #button .reveal .but5:hover {
+      background-color: blue; }
+    main #button .reveal .but5:hover i {
+      left: 120px;
+      opacity: 1; }
+    main #button .reveal .but5:hover span {
+      right: 10px;
+      color: white; }
+    main #button .reveal .but5 span {
+      color: #2250fc;
+      position: relative;
+      font-size: 12px;
+      font-weight: 700; }
+    main #button .reveal .but5 i {
+      color: white;
+      position: absolute;
+      left: 90px;
+      top: 15px;
+      opacity: 0;
+      font-size: 12px;
+      transition: all 0.3s; }
+  main #button .reveal .but6 {
+    width: 100px;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 13px;
+    background-color: black;
+    border: 2px solid black;
+    cursor: pointer; }
+    main #button .reveal .but6:hover {
+      background-color: #333; }
+    main #button .reveal .but6:hover i {
+      left: 90px;
+      opacity: 1; }
+    main #button .reveal .but6:hover span {
+      right: 10px; }
+    main #button .reveal .but6 span {
+      color: white;
+      position: relative;
+      font-size: 12px;
+      font-weight: 700; }
+    main #button .reveal .but6 i {
+      transition: all 0.3s;
+      color: white;
+      position: absolute;
+      left: 70px;
+      top: 15px;
+      opacity: 0;
+      font-size: 12px; }
+  main #button .reveal .but7 {
+    width: 115px;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 13px;
+    border: 1px solid silver;
+    cursor: pointer; }
+    main #button .reveal .but7:hover {
+      background-color: #dae0e5; }
+    main #button .reveal .but7:hover i {
+      left: 30px;
+      opacity: 1;
+      transition: all 0.3s; }
+    main #button .reveal .but7:hover span {
+      left: 10px; }
+    main #button .reveal .but7 span {
+      color: black;
+      position: relative;
+      font-size: 12px;
+      font-weight: 700; }
+    main #button .reveal .but7 i {
+      color: black;
+      position: absolute;
+      left: 50px;
+      top: 15px;
+      opacity: 0;
+      font-size: 12px; }
+  main #button .reveal .but8 {
+    width: 175px;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 13px;
+    border: 2px solid; }
+    main #button .reveal .but8:hover {
+      background-color: black; }
+    main #button .reveal .but8:hover i {
+      left: 45px;
+      opacity: 1;
+      transition: all 0.5s;
+      color: white; }
+    main #button .reveal .but8:hover span {
+      left: 20px;
+      color: white;
+      transition: all 0.3s; }
+    main #button .reveal .but8 span {
+      color: black;
+      position: relative;
+      font-size: 12px;
+      font-weight: 700; }
+    main #button .reveal .but8 i {
+      color: black;
+      position: absolute;
+      left: 60px;
+      top: 15px;
+      font-size: 14px;
+      opacity: 0;
+      transition: all 0.3s; }
+main #button .icon-animate {
+  width: 100%; }
+  main #button .icon-animate .but1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: blue;
+    position: relative;
+    transition: all 0.8s; }
+    main #button .icon-animate .but1:hover {
+      width: 80px;
+      height: 30px;
+      border-radius: 25px;
+      transition: all 0.8s; }
+    main #button .icon-animate .but1:hover span {
+      opacity: 1;
+      left: 30px;
+      transition: all 0.5s; }
+    main #button .icon-animate .but1:hover i {
+      transform: rotate(360deg);
+      transition: all 0.8s; }
+    main #button .icon-animate .but1 i {
+      color: white;
+      font-size: 12px;
+      position: absolute;
+      top: 9px;
+      left: 10px;
+      transition: all 0.8s; }
+    main #button .icon-animate .but1 span {
+      opacity: 0;
+      position: absolute;
+      top: 6px;
+      left: 70px;
+      font-size: 11px;
+      color: white;
+      transition: all 0.5s; }
+  main #button .icon-animate .but2 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: blue;
+    position: relative;
+    transition: all 0.8s; }
+    main #button .icon-animate .but2:hover {
+      width: 100px;
+      height: 40px;
+      border-radius: 25px;
+      transition: all 0.8s; }
+    main #button .icon-animate .but2:hover span {
+      opacity: 1;
+      left: 30px;
+      transition: all 0.5s; }
+    main #button .icon-animate .but2:hover i {
+      transform: rotate(360deg);
+      transition: all 0.8s; }
+    main #button .icon-animate .but2 i {
+      color: white;
+      font-size: 12px;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      transition: all 0.8s; }
+    main #button .icon-animate .but2 span {
+      opacity: 0;
+      position: absolute;
+      top: 8px;
+      left: 70px;
+      font-size: 12px;
+      color: white;
+      transition: all 0.5s;
+      font-weight: bold; }
+  main #button .icon-animate .but3 {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: blue;
+    position: relative;
+    transition: all 0.8s; }
+    main #button .icon-animate .but3:hover {
+      width: 110px;
+      height: 45px;
+      border-radius: 25px;
+      transition: all 0.8s; }
+    main #button .icon-animate .but3:hover span {
+      opacity: 1;
+      left: 30px;
+      transition: all 0.5s; }
+    main #button .icon-animate .but3:hover i {
+      transform: rotate(360deg);
+      transition: all 0.8s; }
+    main #button .icon-animate .but3 i {
+      color: white;
+      font-size: 13px;
+      position: absolute;
+      top: 15px;
+      left: 16px;
+      transition: all 0.8s; }
+    main #button .icon-animate .but3 span {
+      opacity: 0;
+      position: absolute;
+      top: 12px;
+      left: 70px;
+      font-size: 13px;
+      color: white;
+      transition: all 0.5s;
+      font-weight: bold; }
+  main #button .icon-animate .but4 {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: blue;
+    position: relative;
+    transition: all 0.8s; }
+    main #button .icon-animate .but4:hover {
+      width: 150px;
+      height: 65px;
+      border-radius: 25px;
+      transition: all 0.8s;
+      border-radius: 30px; }
+    main #button .icon-animate .but4:hover span {
+      opacity: 1;
+      left: 45px;
+      transition: all 0.5s; }
+    main #button .icon-animate .but4:hover i {
+      transform: rotate(360deg);
+      transition: all 0.8s; }
+    main #button .icon-animate .but4 i {
+      color: white;
+      font-size: 17px;
+      position: absolute;
+      top: 20px;
+      left: 24px;
+      transition: all 0.8s; }
+    main #button .icon-animate .but4 span {
+      opacity: 0;
+      position: absolute;
+      top: 16px;
+      left: 60px;
+      font-size: 18px;
+      color: white;
+      transition: all 0.5s;
+      font-weight: bold; }
+  main #button .icon-animate .but5 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    transition: all 0.8s;
+    border: 2px solid black; }
+    main #button .icon-animate .but5:hover {
+      width: 80px;
+      height: 30px;
+      border-radius: 25px;
+      transition: all 0.8s;
+      background-color: black; }
+    main #button .icon-animate .but5:hover span {
+      opacity: 1;
+      left: 30px;
+      transition: all 0.5s; }
+    main #button .icon-animate .but5:hover i {
+      transform: rotate(360deg);
+      transition: all 0.8s; }
+    main #button .icon-animate .but5 i {
+      color: black;
+      font-size: 12px;
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      transition: all 0.8s; }
+    main #button .icon-animate .but5 span {
+      opacity: 0;
+      position: absolute;
+      top: 6px;
+      left: 70px;
+      font-size: 11px;
+      color: white;
+      transition: all 0.5s; }
+  main #button .icon-animate .but6 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    transition: all 0.8s;
+    border: 2px solid black; }
+    main #button .icon-animate .but6:hover {
+      width: 100px;
+      height: 35px;
+      border-radius: 25px;
+      transition: all 0.8s;
+      background-color: black; }
+    main #button .icon-animate .but6:hover span {
+      opacity: 1;
+      left: 30px;
+      transition: all 0.5s; }
+    main #button .icon-animate .but6:hover i {
+      transform: rotate(360deg);
+      transition: all 0.8s;
+      color: white; }
+    main #button .icon-animate .but6 i {
+      color: black;
+      font-size: 12px;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      transition: all 0.8s; }
+    main #button .icon-animate .but6 span {
+      opacity: 0;
+      position: absolute;
+      top: 8px;
+      left: 70px;
+      font-size: 12px;
+      color: white;
+      transition: all 0.5s;
+      font-weight: bold; }
+  main #button .icon-animate .but7 {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    transition: all 0.8s;
+    border: 2px solid black; }
+    main #button .icon-animate .but7:hover {
+      width: 110px;
+      height: 45px;
+      border-radius: 25px;
+      transition: all 0.8s;
+      background-color: black; }
+    main #button .icon-animate .but7:hover span {
+      opacity: 1;
+      left: 35px;
+      transition: all 0.5s; }
+    main #button .icon-animate .but7:hover i {
+      transform: rotate(360deg);
+      transition: all 0.8s;
+      color: white; }
+    main #button .icon-animate .but7 i {
+      color: black;
+      font-size: 13px;
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      transition: all 0.8s; }
+    main #button .icon-animate .but7 span {
+      opacity: 0;
+      position: absolute;
+      top: 12px;
+      left: 70px;
+      font-size: 13px;
+      color: white;
+      transition: all 0.5s;
+      font-weight: bold; }
+  main #button .icon-animate .but8 {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    transition: all 0.8s;
+    border: 2px solid black; }
+    main #button .icon-animate .but8:hover {
+      width: 150px;
+      height: 65px;
+      border-radius: 25px;
+      transition: all 0.8s;
+      border-radius: 30px;
+      background-color: black; }
+    main #button .icon-animate .but8:hover span {
+      opacity: 1;
+      left: 45px;
+      transition: all 0.5s; }
+    main #button .icon-animate .but8:hover i {
+      transform: rotate(360deg);
+      transition: all 0.8s;
+      color: white; }
+    main #button .icon-animate .but8 i {
+      color: black;
+      font-size: 17px;
+      position: absolute;
+      top: 21px;
+      left: 23px;
+      transition: all 0.8s; }
+    main #button .icon-animate .but8 span {
+      opacity: 0;
+      position: absolute;
+      top: 16px;
+      left: 60px;
+      font-size: 18px;
+      color: white;
+      transition: all 0.5s;
+      font-weight: bold; }
+  main #button .icon-animate .but9 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: blue;
+    position: relative;
+    transition: all 0.8s; }
+    main #button .icon-animate .but9:hover {
+      width: 80px;
+      height: 30px;
+      border-radius: 25px;
+      transition: all 0.8s; }
+    main #button .icon-animate .but9:hover span {
+      opacity: 1;
+      left: 30px;
+      transition: all 0.5s; }
+    main #button .icon-animate .but9:hover i {
+      transform: rotate(360deg);
+      transition: all 0.8s; }
+    main #button .icon-animate .but9 i {
+      color: white;
+      font-size: 12px;
+      position: absolute;
+      top: 9px;
+      left: 10px;
+      transition: all 0.8s; }
+    main #button .icon-animate .but9 span {
+      opacity: 0;
+      position: absolute;
+      top: 6px;
+      left: 70px;
+      font-size: 11px;
+      color: white;
+      transition: all 0.5s; }
+  main #button .icon-animate .but10 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #2299f6;
+    position: relative;
+    transition: all 0.8s; }
+    main #button .icon-animate .but10:hover {
+      width: 100px;
+      height: 35px;
+      border-radius: 25px;
+      transition: all 0.8s; }
+    main #button .icon-animate .but10:hover span {
+      opacity: 1;
+      left: 30px;
+      transition: all 0.5s; }
+    main #button .icon-animate .but10:hover i {
+      transform: rotate(360deg);
+      transition: all 0.8s; }
+    main #button .icon-animate .but10 i {
+      color: white;
+      font-size: 12px;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      transition: all 0.8s; }
+    main #button .icon-animate .but10 span {
+      opacity: 0;
+      position: absolute;
+      top: 8px;
+      left: 70px;
+      font-size: 12px;
+      color: white;
+      transition: all 0.5s;
+      font-weight: bold; }
+  main #button .icon-animate .but11 {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #da9400;
+    position: relative;
+    transition: all 0.8s; }
+    main #button .icon-animate .but11:hover {
+      width: 110px;
+      height: 45px;
+      border-radius: 25px;
+      transition: all 0.8s; }
+    main #button .icon-animate .but11:hover span {
+      opacity: 1;
+      left: 30px;
+      transition: all 0.5s; }
+    main #button .icon-animate .but11:hover i {
+      transform: rotate(360deg);
+      transition: all 0.8s; }
+    main #button .icon-animate .but11 i {
+      color: white;
+      font-size: 13px;
+      position: absolute;
+      top: 15px;
+      left: 16px;
+      transition: all 0.8s; }
+    main #button .icon-animate .but11 span {
+      opacity: 0;
+      position: absolute;
+      top: 12px;
+      left: 70px;
+      font-size: 13px;
+      color: white;
+      transition: all 0.5s;
+      font-weight: bold; }
+  main #button .icon-animate .but12 {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: #ef0f33;
+    position: relative;
+    transition: all 0.8s; }
+    main #button .icon-animate .but12:hover {
+      width: 150px;
+      height: 65px;
+      border-radius: 25px;
+      transition: all 0.8s;
+      border-radius: 30px; }
+    main #button .icon-animate .but12:hover span {
+      opacity: 1;
+      left: 45px;
+      transition: all 0.5s; }
+    main #button .icon-animate .but12:hover i {
+      transform: rotate(360deg);
+      transition: all 0.8s; }
+    main #button .icon-animate .but12 i {
+      color: white;
+      font-size: 17px;
+      position: absolute;
+      top: 20px;
+      left: 24px;
+      transition: all 0.8s; }
+    main #button .icon-animate .but12 span {
+      opacity: 0;
+      position: absolute;
+      top: 16px;
+      left: 60px;
+      font-size: 18px;
+      color: white;
+      transition: all 0.5s;
+      font-weight: bold; }
+  main #button .icon-animate .but13 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    transition: all 0.8s;
+    border: 1px solid gray; }
+    main #button .icon-animate .but13:hover {
+      width: 80px;
+      height: 30px;
+      border-radius: 25px;
+      transition: all 0.8s;
+      background-color: #ebebeb; }
+    main #button .icon-animate .but13:hover span {
+      opacity: 1;
+      left: 30px;
+      transition: all 0.2s;
+      color: black; }
+    main #button .icon-animate .but13:hover i {
+      transform: rotate(360deg);
+      transition: all 0.8s; }
+    main #button .icon-animate .but13 i {
+      color: black;
+      font-size: 12px;
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      transition: all 0.8s; }
+    main #button .icon-animate .but13 span {
+      opacity: 0;
+      position: absolute;
+      top: 6px;
+      left: 70px;
+      font-size: 11px;
+      color: white;
+      transition: all 0.2s; }
+  main #button .icon-animate .but14 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    transition: all 0.8s;
+    border: 1px solid gray; }
+    main #button .icon-animate .but14:hover {
+      width: 100px;
+      height: 35px;
+      border-radius: 25px;
+      transition: all 0.8s;
+      background-color: #ebebeb; }
+    main #button .icon-animate .but14:hover span {
+      opacity: 1;
+      left: 30px;
+      transition: all 0.2s;
+      color: black; }
+    main #button .icon-animate .but14:hover i {
+      transform: rotate(360deg);
+      transition: all 0.8s;
+      color: black; }
+    main #button .icon-animate .but14 i {
+      color: black;
+      font-size: 12px;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      transition: all 0.8s; }
+    main #button .icon-animate .but14 span {
+      opacity: 0;
+      position: absolute;
+      top: 8px;
+      left: 70px;
+      font-size: 12px;
+      color: white;
+      transition: all 0.2s;
+      font-weight: bold; }
+  main #button .icon-animate .but15 {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    transition: all 0.8s;
+    border: 1px solid gray; }
+    main #button .icon-animate .but15:hover {
+      width: 110px;
+      height: 45px;
+      border-radius: 25px;
+      transition: all 0.8s;
+      background-color: #ebebeb; }
+    main #button .icon-animate .but15:hover span {
+      opacity: 1;
+      left: 35px;
+      transition: all 0.2s; }
+    main #button .icon-animate .but15:hover i {
+      transform: rotate(360deg);
+      transition: all 0.8s;
+      color: black; }
+    main #button .icon-animate .but15 i {
+      color: black;
+      font-size: 13px;
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      transition: all 0.8s; }
+    main #button .icon-animate .but15 span {
+      opacity: 0;
+      position: absolute;
+      top: 12px;
+      left: 70px;
+      font-size: 13px;
+      color: black;
+      transition: all 0.2s;
+      font-weight: bold; }
+  main #button .icon-animate .but16 {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    transition: all 0.8s;
+    border: 1px solid gray; }
+    main #button .icon-animate .but16:hover {
+      width: 150px;
+      height: 65px;
+      border-radius: 25px;
+      transition: all 0.8s;
+      border-radius: 30px;
+      background-color: #ebebeb; }
+    main #button .icon-animate .but16:hover span {
+      opacity: 1;
+      left: 45px;
+      transition: all 0.2s; }
+    main #button .icon-animate .but16:hover i {
+      transform: rotate(360deg);
+      transition: all 0.8s;
+      color: black; }
+    main #button .icon-animate .but16 i {
+      color: black;
+      font-size: 17px;
+      position: absolute;
+      top: 21px;
+      left: 23px;
+      transition: all 0.8s; }
+    main #button .icon-animate .but16 span {
+      opacity: 0;
+      position: absolute;
+      top: 16px;
+      left: 60px;
+      font-size: 18px;
+      color: black;
+      transition: all 0.2s;
+      font-weight: bold; }
+main #button .block-buttons {
+  width: 100%; }
+  main #button .block-buttons h1 {
+    font-size: 15px;
+    color: black; }
+  main #button .block-buttons .btn-primary {
+    height: 40px;
+    font-size: 13px;
+    font-weight: 900; }
+  main #button .block-buttons .btn-p2 {
+    border-radius: 30px; }
+  main #button .block-buttons .btn-d1 {
+    height: 40px;
+    font-size: 13px;
+    font-weight: 900; }
+  main #button .block-buttons .btn-d2 {
+    height: 40px;
+    font-size: 13px;
+    font-weight: 900;
+    border-radius: 30px;
+    border: 2px solid black; }
+    main #button .block-buttons .btn-d2:hover {
+      background-color: black;
+      color: white; }
+main #button .bootstrap-button h1 {
+  font-size: 15px;
+  color: black; }
+main #button .bootstrap-button .btn {
+  margin-left: 5px;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+/* Button Page - Main End */
+/* Data Tables Page - Main Start */
+main #buttom-bar #link-list {
+  margin-left: 503px; }
+  main #buttom-bar #link-list .nav .show .nav-link {
+    background-color: white !important; }
+  main #buttom-bar #link-list ul li:hover .dropdown-menu {
+    display: block; }
+  main #buttom-bar #link-list ul li a {
+    color: gray; }
+    main #buttom-bar #link-list ul li a:hover {
+      color: #2250fc; }
+main #date-table #date-table-heads h1 {
+  font-size: 18px;
+  color: #000; }
+main #date-table #date-table-heads p {
+  margin-top: 31px;
+  font-size: 16px;
+  color: gray; }
+main #date-table #buttons-lists {
+  margin-left: 124px;
+  margin-top: 10px; }
+  main #date-table #buttons-lists button {
+    color: black;
+    width: 87px; }
+main #date-table #choese p {
+  color: gray;
+  margin-top: 10px;
+  margin-left: 3px; }
+main #date-table #choese select {
+  margin-left: 6px; }
+
+/* Data Tables Page - Main End */
+/* Data & Time Picker - Page Main Start */
+main #dateTimeUp .text {
+  height: 30px;
+  text-align: center;
+  padding-top: 10px; }
+  main #dateTimeUp .text a {
+    text-decoration: none;
+    margin: 15px;
+    font-size: 15px;
+    color: black;
+    opacity: 0.6;
+    font-weight: bold; }
+    main #dateTimeUp .text a:hover {
+      color: blue;
+      transition: all 0.5s; }
+  main #dateTimeUp .text hr {
+    width: 100%; }
+main #dateTimeCenter .element-list ul {
+  margin-top: 5px; }
+  main #dateTimeCenter .element-list ul h1 {
+    font-size: 16px;
+    font-weight: 600; }
+  main #dateTimeCenter .element-list ul li {
+    list-style-type: none;
+    margin-top: 12px; }
+    main #dateTimeCenter .element-list ul li a {
+      text-decoration: none;
+      color: black; }
+      main #dateTimeCenter .element-list ul li a:hover {
+        color: blue; }
+main #dateTimeCenter .single {
+  margin-top: 20px; }
+main h1 {
+  font-size: 18px;
+  color: black; }
+
+/* Data & Time Picker - Page Main End */
+/* Footer - Start */
+footer #polo-foot {
+  background-color: #f8f9fa;
+  padding-top: 2cm !important;
+  padding-bottom: 2cm !important; }
+  footer #polo-foot .left-foot h4 {
+    color: black;
+    font-weight: bold; }
+  footer #polo-foot .left-foot p {
+    padding-top: 20px;
+    color: #7a7171;
+    font-size: 15px; }
+  footer #polo-foot .left-foot .but {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 55px; }
+  footer #polo-foot .right-foot .item h4 {
+    color: black;
+    font-weight: 700; }
+  footer #polo-foot .right-foot .item ul {
+    padding-top: 2rem; }
+    footer #polo-foot .right-foot .item ul li {
+      list-style-type: none;
+      padding-top: 1rem; }
+      footer #polo-foot .right-foot .item ul li:hover a {
+        color: blue; }
+      footer #polo-foot .right-foot .item ul li a {
+        color: #7a7171;
+        text-decoration: none;
+        font-size: 15px; }
+footer .under {
+  background: #eff1f4;
+  text-align: center;
+  height: 70px;
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important; }
+  footer .under .angle-class {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    cursor: pointer; }
+    footer .under .angle-class .angle {
+      border-radius: 50%;
+      background-color: gray !important;
+      padding: 13px 18px;
+      color: white;
+      transition: all 0.5s; }
+      footer .under .angle-class .angle:hover {
+        background-color: #2250fc !important;
+        transition: all 0.5s; }
+
+/* Footer - End */
+/* M E D I A */
+@media screen and (max-width: 992px) {
+  .col-4 {
+    display: none; } }
+@media screen and (max-width: 320px) {
+  .head-nav2-icon {
+    display: none; } }
+@media screen and (max-width: 768px) {
+  .icon-animate {
+    text-align: center; } }
+@media screen and (max-width: 768px) {
+  .under {
+    display: none; } }
+
+/*# sourceMappingURL=home.css.map */
